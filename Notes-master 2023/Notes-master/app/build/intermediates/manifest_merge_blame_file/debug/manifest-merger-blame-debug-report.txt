@@ -1,0 +1,288 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright (c) 2010-2011, The MiCode Open Source Community (www.micode.net)
+4
+5     Licensed under the Apache License, Version 2.0 (the "License");
+6     you may not use this file except in compliance with the License.
+7     You may obtain a copy of the License at
+8
+9          http://www.apache.org/licenses/LICENSE-2.0
+10
+11     Unless required by applicable law or agreed to in writing, software
+12     distributed under the License is distributed on an "AS IS" BASIS,
+13     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14     See the License for the specific language governing permissions and
+15     limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="net.micode.notes"
+19    android:versionCode="1"
+20    android:versionName="0.1" >
+21
+22    <uses-sdk
+22-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:24:5-44
+23        android:minSdkVersion="30"
+23-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:24:15-41
+24        android:targetSdkVersion="30" />
+24-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:24:5-44
+25
+26    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+26-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:26:5-81
+26-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:26:22-78
+27    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+27-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:27:5-88
+27-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:27:22-85
+28    <uses-permission android:name="android.permission.INTERNET" />
+28-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:28:5-67
+28-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:28:22-64
+29    <uses-permission android:name="android.permission.READ_CONTACTS" />
+29-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:29:5-72
+29-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:29:22-69
+30    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+30-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:30:5-74
+30-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:30:22-71
+31    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+31-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:31:5-80
+31-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:31:22-77
+32    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+32-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:32:5-71
+32-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:32:22-68
+33    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+33-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:33:5-74
+33-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:33:22-71
+34    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+34-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:34:5-81
+34-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:34:22-78
+35
+36    <application
+36-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:36:5-151:19
+37        android:debuggable="true"
+38        android:extractNativeLibs="false"
+39        android:icon="@drawable/icon_app"
+39-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:37:9-42
+40        android:label="@string/app_name"
+40-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:38:9-41
+41        android:testOnly="true" >
+42        <activity
+42-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:39:9-52:20
+43            android:name="net.micode.notes.ui.NotesListActivity"
+43-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:40:13-49
+44            android:configChanges="keyboardHidden|orientation|screenSize"
+44-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:41:13-74
+45            android:exported="true"
+45-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:46:53-76
+46            android:label="@string/app_name"
+46-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:42:13-45
+47            android:launchMode="singleTop"
+47-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:43:13-43
+48            android:theme="@style/NoteTheme"
+48-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:44:13-45
+49            android:uiOptions="splitActionBarWhenNarrow"
+49-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:45:13-57
+50            android:windowSoftInputMode="adjustPan" >
+50-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:46:13-52
+51            <intent-filter>
+51-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:48:13-51:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:49:17-69
+52-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:49:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:50:17-77
+54-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:50:27-74
+55            </intent-filter>
+56        </activity>
+57        <activity
+57-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:54:9-83:20
+58            android:name="net.micode.notes.ui.NoteEditActivity"
+58-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:55:13-48
+59            android:configChanges="keyboardHidden|orientation|screenSize"
+59-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:56:13-74
+60            android:exported="true"
+60-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:58:46-69
+61            android:launchMode="singleTop"
+61-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:57:13-43
+62            android:theme="@style/NoteTheme" >
+62-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:58:13-45
+63            <intent-filter android:scheme="http" >
+63-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:60:13-66:29
+63-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:60:28-49
+64                <action android:name="android.intent.action.VIEW" />
+64-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:62:17-69
+64-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:62:25-66
+65
+66                <category android:name="android.intent.category.DEFAULT" />
+66-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:63:17-76
+66-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:63:27-73
+67
+68                <data android:mimeType="vnd.android.cursor.item/text_note" />
+68-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:64:17-78
+68-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:64:23-75
+69                <data android:mimeType="vnd.android.cursor.item/call_note" />
+69-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:64:17-78
+69-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:64:23-75
+70            </intent-filter>
+71            <intent-filter>
+71-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:68:13-73:29
+72                <action android:name="android.intent.action.INSERT_OR_EDIT" />
+72-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:69:17-79
+72-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:69:25-76
+73
+74                <category android:name="android.intent.category.DEFAULT" />
+74-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:63:17-76
+74-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:63:27-73
+75
+76                <data android:mimeType="vnd.android.cursor.item/text_note" />
+76-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:64:17-78
+76-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:64:23-75
+77                <data android:mimeType="vnd.android.cursor.item/call_note" />
+77-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:64:17-78
+77-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:64:23-75
+78            </intent-filter>
+79            <intent-filter>
+79-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:75:13-78:29
+80                <action android:name="android.intent.action.SEARCH" />
+80-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:76:17-71
+80-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:76:25-68
+81
+82                <category android:name="android.intent.category.DEFAULT" />
+82-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:63:17-76
+82-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:63:27-73
+83            </intent-filter>
+84
+85            <meta-data
+85-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:80:13-82:54
+86                android:name="android.app.searchable"
+86-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:81:17-54
+87                android:resource="@xml/searchable" />
+87-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:82:17-51
+88        </activity>
+89
+90        <provider
+90-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:85:9-88:43
+91            android:name="net.micode.notes.data.NotesProvider"
+91-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:86:13-63
+92            android:authorities="micode_notes"
+92-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:87:13-47
+93            android:multiprocess="true" />
+93-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:88:13-40
+94
+95        <receiver
+95-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:90:9-102:20
+96            android:name="net.micode.notes.widget.NoteWidgetProvider_2x"
+96-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:91:13-57
+97            android:exported="true"
+97-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:92:51-74
+98            android:label="@string/app_widget2x2" >
+98-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:92:13-50
+99            <intent-filter>
+99-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:93:13-97:29
+100                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+100-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:94:17-84
+100-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:94:25-81
+101                <action android:name="android.appwidget.action.APPWIDGET_DELETED" />
+101-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:95:17-85
+101-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:95:25-82
+102                <action android:name="android.intent.action.PRIVACY_MODE_CHANGED" />
+102-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:96:17-85
+102-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:96:25-82
+103            </intent-filter>
+104
+105            <meta-data
+105-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:99:13-101:58
+106                android:name="android.appwidget.provider"
+106-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:100:17-58
+107                android:resource="@xml/widget_2x_info" />
+107-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:101:17-55
+108        </receiver>
+109        <receiver
+109-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:103:9-116:20
+110            android:name="net.micode.notes.widget.NoteWidgetProvider_4x"
+110-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:104:13-57
+111            android:exported="true"
+111-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:105:51-74
+112            android:label="@string/app_widget4x4" >
+112-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:105:13-50
+113            <intent-filter>
+113-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:93:13-97:29
+114                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+114-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:94:17-84
+114-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:94:25-81
+115                <action android:name="android.appwidget.action.APPWIDGET_DELETED" />
+115-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:95:17-85
+115-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:95:25-82
+116                <action android:name="android.intent.action.PRIVACY_MODE_CHANGED" />
+116-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:96:17-85
+116-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:96:25-82
+117            </intent-filter>
+118
+119            <meta-data
+119-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:99:13-101:58
+120                android:name="android.appwidget.provider"
+120-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:100:17-58
+121                android:resource="@xml/widget_4x_info" />
+121-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:101:17-55
+122        </receiver>
+123        <receiver
+123-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:118:9-122:20
+124            android:name="net.micode.notes.ui.AlarmInitReceiver"
+124-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:118:19-55
+125            android:exported="true" >
+125-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:118:56-79
+126            <intent-filter>
+126-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:119:13-121:29
+127                <action android:name="android.intent.action.BOOT_COMPLETED" />
+127-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:120:17-79
+127-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:120:25-76
+128            </intent-filter>
+129        </receiver>
+130        <receiver
+130-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:124:9-127:20
+131            android:name="net.micode.notes.ui.AlarmReceiver"
+131-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:125:13-61
+132            android:exported="true"
+132-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:126:39-62
+133            android:process=":remote" >
+133-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:126:13-38
+134        </receiver>
+135
+136        <activity
+136-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:129:9-134:20
+137            android:name="net.micode.notes.ui.AlarmAlertActivity"
+137-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:130:13-50
+138            android:label="@string/app_name"
+138-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:131:13-45
+139            android:launchMode="singleInstance"
+139-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:132:13-48
+140            android:theme="@android:style/Theme.Holo.Wallpaper.NoTitleBar" >
+140-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:133:13-75
+141        </activity>
+142        <activity
+142-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:136:9-141:20
+143            android:name="net.micode.notes.ui.NotesPreferenceActivity"
+143-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:137:13-71
+144            android:label="@string/preferences_title"
+144-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:138:13-54
+145            android:launchMode="singleTop"
+145-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:139:13-43
+146            android:theme="@android:style/Theme.Holo.Light" >
+146-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:140:13-60
+147        </activity>
+148
+149        <service
+149-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:143:9-146:19
+150            android:name="net.micode.notes.gtask.remote.GTaskSyncService"
+150-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:144:13-74
+151            android:exported="false" >
+151-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:145:13-37
+152        </service>
+153
+154        <meta-data
+154-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:148:9-150:52
+155            android:name="android.app.default_searchable"
+155-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:149:13-58
+156            android:value=".ui.NoteEditActivity" />
+156-->/Users/wangmeiting/StudioProjects/Notes-master/app/src/main/AndroidManifest.xml:150:13-49
+157    </application>
+158
+159</manifest>
